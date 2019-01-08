@@ -1,0 +1,11 @@
+// export const SETPOLICYDESCLIST='setpolicydesclist';
+export const SETKINGKONGLIST='setkingkonglist';
+export const SETSUBCATELIST='setsubcatelist';
+export const SETCATEGORY='setCategory';
+export const SETCATEGORYLIST='setCategoryList';
+export const SETCATELIST='setCateList';
+// export const SETFOCUSLIST='setfocuslist';
+// export const SETTAGLIST='setTagList';
+// export const SETPOPULARITEMLIST='setpopularitemlist';
+// export const SETNEWITEMLIST='setnewitemlist';
+export const RECEIVE_TOPICLIST = 'receive_topiclist'
