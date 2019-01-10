@@ -67,6 +67,7 @@
          display block
          margin-top px2rem(10)
          font-family: cursive;
+         font-size 12px
        &.active
          color $msite
 </style>

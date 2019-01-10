@@ -8,27 +8,42 @@ import  Login from '../pages/Login/Login.vue'
 export default [
   {
     path:'/msite',
-    component:Msite
+    component:Msite,
+    meta:{
+      isShow:true
+    }
   },
   {
     path:'/knowledge',
-    component:KnowLedge
-  },
-  {
-    path:'/sort',
-    component:Sort
+    component:KnowLedge,
+    meta:{
+      isShow:true
+    }
   },
   {
     path:'/shopcart',
-    component:ShopCart
+    component:ShopCart,
+    meta:{
+      isShow:true
+    }
+  },
+  {
+    path: '/sort',
+    component: Sort,
+    meta:{
+      isShow:true
+    }
   },
   {
     path:'/profile',
-    component:Profile
+    component:Profile,
   },
   {
     path:'/login',
-    component:Login
+    component:Login,
+    meta:{
+      isShow:true
+    }
   },
   {
     path:'/',
